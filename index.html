@@ -1,68 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        * {
-            background-color: aqua;
-        }
-
-        .container {
-            height: 600px;
-            width: 1600px;
-            margin-top: 50px;
-            margin-left: 20px;
-            background-color: aliceblue;
-            border: 5px solid red;
-        }
-
-        .weird {
-            padding: 24px;
-        }
-
-        .beboth {
-            margin-top: 20px;
-        }
-
-        .video-container {
-            width: 100%;
-            height: auto;
-        }
-    </style>
-</head>
-<body>
-    <section>
-        <div class="container"></div>
-
-        <div class="weird">
-            <!-- <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/de…dw31c2813f/images/homepage/mobile/smart_m_new.jpg"> -->
-            <!-- <img src="./img/fastrack_smart_d.jpg" alt="Fastrack Smart Watch"/>
-        </div>
-
-        <div class="beboth">
-            <h2>FASTRACK #BEBOTH</h2> -->
-
-            <!-- <video class="video-container" controls>
-                <source src="./img/video-thumbnail.jpg.mp4" type="video/mp4"> -->
-                <!-- Fallback content for browsers that do not support the video tag -->
-                <!-- <img src="./img/video-fallback.jpg" alt="Video thumbnail">
-                <p>Your browser does not support the video tag. You can <a href="./img/video-thumbnail.jpg.mp4">download the video here</a>.</p>
-            </video>
-        </div>
-    </section>
-</body> -->
-<!-- </html> --> -->
-
-
-
-<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -98,22 +33,116 @@
             border: none;
         }
 
-        .featured {
-            float: right;
-            height: 850px;
-            width: 900px;
-        }
-
-        footer img {
-            width: 200px; /* Adjust as needed */
-            height: auto;
-        }
-
-        footer {
+        .collection {
+            height: 900px;
             display: flex;
-            justify-content: center;
+        }
+
+        .watch-collection {
+            height: 750px;
+            width: auto;
+            border: 2px solid black;
+        }
+
+        .collection-image {
+            float: right;
+        }
+
+        .featured {
+            height: 850px;
+            width: 800px;
+        }
+
+        .two-in-one {
+            display: flex;
+            gap: 10px;
+        }
+
+        .f-in-one {
+            flex-wrap: wrap;
+        }
+
+        .creame {
+            height: 385px;
+            width: 380px;
+            margin: 5px;
+        }
+
+        .B-two-one {
+            display: flex;
+            gap: 10px;
+        }
+
+        .Big-plans {
+            flex-wrap: wrap;
+            margin-left: 15px;
+        }
+
+        .slay-play {
+            flex-wrap: wrap;
+            margin-left: 15px;
+        }
+
+        .C-two-one {
+            display: flex;
+            gap: 10px;
+        }
+
+        .s-and-secure {
+            height: 150px;
+            width: auto;
+            font-size: 25px;
+            display: flex;
+            color: rgb(70, 68, 68);
+            justify-content: space-around;
+            font-family: sans-serif;
+            align-items: center;
+            background-color: rgb(217, 227, 239);
+        }
+
+        .fast-footer img {
+            width: 300px;
+            margin-left: 10%;
+        }
+
+        .fast-footer {
+            display: flex;
             padding: 20px;
             background-color: #000;
+        }
+
+        .fast-footer-2 {
+            display: flex;
+            color: white;
+            gap: 100px;
+            font-size: 19px;
+            justify-content: space-between;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #000;
+        }
+
+        b {
+            font-size: 25px;
+        }
+
+        .download-img {
+            height: 50px;
+            width: 30px;
+        }
+
+        .whats {
+            color: white;
+        }
+
+        .terms {
+            height: 80px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            background-color: dimgray;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            margin: 0; /* Remove margin to avoid space */
         }
     </style>
 </head>
@@ -132,21 +161,98 @@
             </div>
         </div>
 
-        <!-- <div class="collection"
-             
-        </div> -->
-
-        <div>
-            <img src="./img/featured-collections-mobile.jpg" class="featured">
-        </div>
-
-        <div>
-            <h1>FOLLOW US</h1>
+        <div class="collection">
+            <div class="watch-collection"></div>
+            <div class="collection-image">
+                <img src="./img/featured-collections-mobile.jpg" class="featured">
+            </div>
         </div>
     </section>
 
-    <footer class="fastrack">
-        <img src="https://www.fastrack.in/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw6e5f9a6a/images/FASTRACK-Logo-White.svg" alt="Fastrack Logo">
-    </footer>
+    <section class="two-in-one">
+        <div class="dating">
+            <img src="https://cdn-yotpo-images-production.yotpo.com/instagram/0/17966119616567900/standard_resolution.jpg" alt="dating-img" height="800px" width="850px">
+        </div>
+
+        <div class="f-in-one">
+            <img src="https://cdn-yotpo-images-production.yotpo.com/instagram/69/18067265911442469/standard_resolution.jpg" alt="creame-img1" class="creame">
+            <img src="https://cdn-yotpo-images-production.yotpo.com/instagram/75/18054475657539375/standard_resolution.jpg" alt="creame-img2" class="creame">
+            <img src="https://cdn-yotpo-images-production.yotpo.com/instagram/31/18005623535104931/standard_resolution.jpg" alt="creame-img3" class="creame">
+            <img src="https://cdn-yotpo-images-production.yotpo.com/instagram/37/18020115742988837/standard_resolution.jpg" alt="creame-img4" class="creame">
+        </div>
+    </section>
+
+    <section class="B-two-one">
+        <div class="Big-plans">
+            <img src="https://cdn-yotpo-images-production.yotpo.com/instagram/98/17996153999406198/standard_resolution.jpg" class="creame">
+            <img src="https://cdn-yotpo-images-production.yotpo.com/instagram/42/17997665162397542/standard_resolution.jpg" class="creame">
+            <img src="https://cdn-yotpo-images-production.yotpo.com/instagram/45/18213285661277045/standard_resolution.jpg" class="creame">
+            <img src="https://cdn-yotpo-images-production.yotpo.com/instagram/94/18018666895860894/standard_resolution.jpg" class="creame">
+        </div>
+
+        <div>
+            <img src="https://cdn-yotpo-images-production.yotpo.com/instagram/34/17854905318109534/standard_resolution.jpg" height="800px" width="850px">
+        </div>
+    </section>
+
+    <section class="C-two-one">
+        <div>
+            <img src="https://cdn-yotpo-images-production.yotpo.com/instagram/77/17951294183089477/standard_resolution.jpg"  height="800px" width="850px">
+        </div>
+
+        <div class="slay-play">
+            <img src="https://cdn-yotpo-images-production.yotpo.com/instagram/63/18249406651128063/standard_resolution.jpg" class="creame">
+            <img src="https://cdn-yotpo-images-production.yotpo.com/instagram/16/17935932254349816/standard_resolution.jpg" class="creame">
+            <img src="https://cdn-yotpo-images-production.yotpo.com/instagram/59/18049110550352459/standard_resolution.jpg" class="creame">
+            <img src="https://cdn-yotpo-images-production.yotpo.com/instagram/88/17946240437294588/standard_resolution.jpg" class="creame">
+        </div>
+    </section>
+
+    <section>
+        <div class="s-and-secure">
+            <p>SAFE AND SECURE<br>CHECKOUT</p>
+            <p>PREMIUM QUALITY<br>PRODUCTS</p>
+            <p>7 DAY<br>RETURN</p>
+            <p>FREE SHIPPING<br>NATIONWIDE</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="fast-footer">
+            <img src="https://www.fastrack.in/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw6e5f9a6a/images/FASTRACK-Logo-White.svg" alt="Fastrack Logo" class="fast-footer img">
+            <div class="fast-footer-2">
+                <p>
+                    <b>CUSTOMER<br> SERVICE</b><br><br>
+                    Payment Options<br><br>
+                    Track Order<br><br>
+                    Find a Store<br><br>
+                    Encircle Program<br><br><br><br>
+                    <b>CONTACT US</b><br><br>
+                    1800-266-0123<br><br>
+                    customercare@titan.co.in<br><br>
+                    FAQs
+                </p>
+                <p>
+                    <b>POLICIES</b><br><br>
+                    Brand Protection<br><br>
+                    Cancellation<br><br>
+                    Shipping<br><br>
+                    Warranty Policies
+                </p>
+                <p>
+                    <b>ABOUT FASTRACK</b><br><br>
+                    About Us<br><br>
+                    Help & Contact<br><br>
+                    Careers<br><br><br>
+                    <b>DOWNLOAD THE TITAN APP</b><br><br>
+                    <img src="./img/download.jpg" alt="Download on the App Store" class="download-img">
+                    <img src="./img/gpay-images.jpg" alt="download in google play store" class="download-img"> <br><br>
+                    <b>NEED HELP?</b><br><br>
+                    Chat with us on <a href="https://wa.me/" class="whats">WhatsApp</a>
+                </p>
+            </div>
+        </div>
+        <h1 class="terms">Terms and Conditions | Privacy Policy</h1>
+    </section>
 </body>
 </html>
